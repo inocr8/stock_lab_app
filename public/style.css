@@ -1,0 +1,41 @@
+body{
+  background-image: url(http://i.telegraph.co.uk/multimedia/archive/02292/pounds_2292455b.jpg);
+  text-align: center;
+  color: rgb(66, 184, 221); /* this is a light blue */
+}
+
+img {
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}
+
+.button-secondary {
+  background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  color: rgb(66, 184, 221);
+  font-size: 3em;
+  text-decoration: none;
+}
+
+h2 {
+  opacity: 1;
+  color: navy;
+  font-size: 1em;
+}
+
+p {
+  opacity: 1;
+  color: navy;
+  font-size: 1em;
+}
