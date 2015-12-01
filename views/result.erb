@@ -1,0 +1,15 @@
+<form action='/' method='get'>
+  <input type='text' name='stockcode'>
+  <button class="button-secondary">Check your stock</button>
+</form>
+
+<% if @result %>
+<section>
+  <header>
+    <h2>Last Trade Result</h2>
+  </header>
+  <p>The stockcode you checked was: <%= @stockcode %></p>
+  <hr/>
+  <p>The last trade of this stockcode is <%= @result %> </p>
+</section>
+<% end %>
